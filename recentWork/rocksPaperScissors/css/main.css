@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: green;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 1px solid yellow;
+}
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
+}
+.scoreboard {
+  font-size: 20px;
+  margin-top: 75px;
+  margin-left: 45%;
+}
+.score {
+margin-left:0%;
+}
+.choose {
+  margin-left:45%;
+  font-size: 20px;
+}
+.button {
+  margin-left: 45%;
+}
+.winLose {
+  margin-left:41%;
+  margin-top: 45px;
+  font-size: 40px;
+}

@@ -1,0 +1,250 @@
+/* BBC CSS */
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* HEADER CSS */
+header{
+  height: 75px;
+  background: black;
+}
+
+header form{
+  width: 10%;
+  float: left;
+}
+
+header ul{
+  width: 50%;
+  margin: 0px 7% 0px -3%;
+  list-style-type: none;
+  float: left;
+}
+
+header nav ul li{
+  float: left;
+  height: 75px;
+  color: white;
+  padding-top: 30px;
+  border-left: 1px solid white;
+  padding-left: 1%;
+  margin-left: 3%;
+  list-style: none;
+}
+
+nav > section {
+  padding-top: 330px;
+  float: left;
+}
+
+header i {
+  color: white;
+  float: left;
+}
+
+header section img {
+  height: 40px;
+  margin-top: 15px;
+  margin-right 0%;
+  float: left;
+}
+
+.signIn {
+  width: 10%;
+  height: 75px;
+  padding-top: 30px;
+  border-left: 1px solid white;
+  padding-left: 2%;
+  margin-left: 2%;
+  float: left;
+}
+
+.signIn i {
+  width: 30%;
+  margin-left: 5%;
+  padding-left: 10px;
+  float: left;
+}
+
+section span {
+  float: left;
+  color: white;
+}]
+.rightNav input {
+  margin-top: 15px;
+}
+.rightNav i {
+  margin-top: 15px;
+}
+
+/* MAIN CSS */
+header + section{
+  background: #e7e8e1;
+}
+.mainSec > section{
+  width: 40%;
+  margin: 50px 0 0 5%;
+  float: left;
+}
+.mainSec .bigSec{
+  height: 250px;
+  background: url(passwordStealing.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+.bigSec a {
+  text-decoration: none;
+  color: white;
+}
+
+.quadSec h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.quadSec .smallQuadSec{
+  height: 125px;
+  width: 50%;
+  text-decoration: none;
+  float: left;
+  border: 1px solid black;
+}
+
+.topLeftQuadSec {
+  background: url(womanBinaryFace.jpeg);
+  background-size: cover;
+}
+
+.topRightQuadSec {
+  background: url(computerKids.jpeg);
+  background-size: cover;
+}
+
+.botLeftQuadSec {
+  background: url(playingGames.jpeg);
+  background-size: cover;
+}
+
+.botRightQuadSec {
+  background: url(ai.jpeg);
+  background-size: cover;
+}
+
+.botRightQuadSec a {
+  text-decoration: none;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.smallQuadSec h3 {
+  text-align: center;
+  padding-top:40px;
+}
+
+.smallQuadSec span {
+  color: white;
+
+}
+
+/* BOTTOM CSS */
+.bottomSec{
+  clear: both;
+}
+.bottomSec img{
+  height: 300px;
+  width: 25%;
+  float: left;
+  margin: 25px 0 0 5%;
+}
+.bottomSec h2{
+  margin-left: 5%;
+  border-left: 3px solid red;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width:768px) {
+  .signIn, .signIn i {
+    margin-left: 5%;
+  }
+  .signIn {
+    width: 40%;
+    padding-top: 30px;
+  }
+  .signIn i {
+    padding-left:1%;
+  }
+  nav, .rightNav input, .rightNav i {
+    display: none;
+  }
+  .mainSec {
+    width: 85%;
+    background-color: white;
+    float: left;
+  }
+  .mainSec > section {
+    width: 85%;
+    margin-left: 15%;
+  }
+  .mainSec section h3 {
+    padding-left: 15%;
+  }
+
+  .quadSec .smallQuadSec {
+    float: none;
+    width: 100%;
+    height: 220px;
+    margin-bottom: 55px;
+  }
+
+  .bottomSec {
+    width:85%;
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+  }
+
+  .bottomSec .imgA, .bottomSec .imgB, .bottomSec .imgC {
+    width: 82%;
+  }
+
+
+@media (min-width:769px) and (max-width:1024px) {
+  .signIn, .signIn i {
+    margin-left: 4%;
+  }
+  nav, .rightNav input, .rightNav i {
+    display: none;
+  }
+
+  .mainSec {
+    width: 85%;
+    background-color: white;
+    float: left;
+  }
+  .mainSec > section {
+    width: 85%;
+    margin-left: 15%;
+  }
+
+
+  .bottomSec {
+    width:85%;
+    margin-left: 10%;
+    margin-top: 20px;
+    float: left;
+  }
+  .bottomSec .imgA, .bottomSec .imgB, .bottomSec .imgC {
+    width: 40%;
+  }
+
+  .bottomSec .imgC {
+    margin-left: 27%;
+  }
+}

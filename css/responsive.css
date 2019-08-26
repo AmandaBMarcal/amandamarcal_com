@@ -1,0 +1,133 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+	#team-about {
+	    padding: 15px 20px;
+	}
+
+}
+/* sm */
+@media (min-width : 768px) and (max-width: 991px) {
+    #home{
+       height: 560px;
+    }
+	.content{
+     	padding: 25% 0 0;
+    }
+	a.fa.fa-angle-down{
+	    margin: 5% 0 0;
+	}
+  
+}
+/* xs */
+@media (min-width : 480px) and (max-width: 767px) {
+	#menu.navbar-default {
+	    background-color: rgba(0, 0, 0, 0.40);
+	}
+	#home{
+       height: 560px;
+    }
+	.content{
+     	padding: 35% 0 0;
+    }
+	a.fa.fa-angle-down{
+	    margin: 5% 0 0;
+	}
+	h1 strong {
+       font-weight: 700;
+	   font-size: 48px;
+    }
+	.feature-box{
+		padding: 20px 70px;
+	}
+	.nav.nav-tabs{
+	    margin-right: 10px;
+    }
+	#portfolio .col-sm-4  {
+		width: 50%;
+		float: left;
+	}
+	
+}
+
+/* Custom, iPhone Retina */ 
+@media (min-width: 320px) and (max-width: 479px){
+    #menu.navbar-default {
+	    background-color: rgba(0, 0, 0, 0.40);
+	}
+	#home{
+       height: 560px;
+    }
+	.content{
+     	padding: 45% 0 0;
+    }
+	a.fa.fa-angle-down{
+	    margin: 5% 0 0;
+	}
+	h1 strong {
+       font-weight: 700;
+	   font-size: 48px;
+    }
+	.nav.nav-tabs{
+	    margin-right: 10px;
+    }
+	#team-about i {
+	    font-size: 20px;
+    }
+	#portfolio.col-sm-4{
+	    width: 100%;
+		float: none;
+	}
+	#blog-post.col-sm-4{
+	    width: 100%;
+		float: none;
+	}
+	.blog-presentation{
+		padding: 40px 0;
+	}
+}
+@media (max-width: 319px){
+	#menu.navbar-default {
+	    background-color: rgba(0, 0, 0, 0.60);
+    }
+	#home{
+       height: 560px;
+    }
+	.content{
+     	padding: 45% 0 0;
+    }
+	a.fa.fa-angle-down{
+	    margin: 5% 0 0;
+	}
+	h1 strong {
+       font-weight: 700;
+	   font-size: 46px;
+    }
+	.feature-content{
+	    width:100%;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+	.intro-text.text-center {  
+	    margin: 0 -10px;
+		text-align: left;
+    }
+	.feature-icon{
+	    display:block;
+		margin:0 auto;
+	}
+    #team-about .col-xs-6{
+		width:100%;
+		float: none;
+	}
+    .blog-presentation{
+		padding: 5px 0;
+	}
+    
+}

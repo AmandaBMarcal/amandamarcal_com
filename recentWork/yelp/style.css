@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  height: 600px;
+  width: 100%;
+  background-image: url(yelpCover.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  background-position: center;
+  clear: both;
+}
+
+.leftNav, .rightNav {
+  height: 50px;
+  width: 50%;
+  margin-top: 40px;
+  float: left;
+}
+
+.leftNav li, .rightNav li {
+  list-style-type: none;
+  margin-right: 5%;
+  float: left;
+}
+
+.leftNav a, .rightNav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.leftNav {
+  padding-left: 17%
+}
+
+.rightNav {
+  padding-left: 21%;
+}
+
+/* Logo */
+ div img {
+  height: 150px;
+  width: 20%;
+  margin-left: 17%;
+  margin-top: 40px;
+  clear: both;
+}
+
+.bars {
+  margin-left: 17%;
+}
+
+.bars input {
+  height: 30px;
+  width: 40%;
+}
+
+.logo {
+  width: 100%;
+  margin-left: 25%;
+}
+
+span {
+  color: white;
+  margin-right: 2%;
+  float: left;
+}
+
+.lowerOps {
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  color: red;
+  margin-left: 45%;
+}
+
+.cities {
+  width: 100%;
+  padding-left: 15%;
+  color: grey;
+  border-bottom: 1px solid grey;
+  float: left;
+}
+
+.cities > h3 {
+  margin-right: 2%;
+  float: left;
+}
+
+/* Restaurant Choices */
+.bigSec {
+  width: 100%;
+  float: left;
+}
+.choices {
+  font-size: 20px;
+  color:red;
+  margin-left: 43%;
+}
+
+.choice {
+  width: 25%;
+  margin-left: 6%;
+  float: left;
+}
+
+.bigSec img {
+  height: 200px;
+  width: 100%;
+}
+
+.bigSec h4  {
+  color: blue;
+  padding-left: 4%;
+}
+
+.bigSec h5 {
+  padding-left: 4%;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+@media only screen and (max-width:768px) {
+  html {
+    width: 100%;
+  }
+  .leftNav, .rightNav {
+    display: none;
+  }
+  header {
+    height: 400px;
+  }
+  .logo img {
+    width: 100%;
+    padding-left: 24%;
+  }
+  .bars {
+    width: 85%;
+    margin-left: 16%;
+  }
+  section h2 {
+    display: none;
+  }
+  .choices {
+    margin-left:25%;
+  }
+  .lowerOps {
+    display: none;
+  }
+  .logo img {
+    margin-left: -30%;
+  }
+  .lowerOps {
+    margin-left: 10%;
+  }
+  .cities {
+    display: none;
+  }
+  .bigSec {
+    width: 100%;
+  }
+  .choice {
+    width: 87%;
+  float: none;
+  }
+  .bigSec img {
+    margin-left: 17%;
+    height: 200px;
+    width: 70%;
+  }
+  .bigSec h4, .bigSec h5 {
+    margin-left: 14%;
+  }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  html {
+    width: 100%;
+  }
+  header nav {
+    width: 37%;
+  }
+  header {
+    height: 400px;
+  }
+  .lowerOps {
+    margin-left: 22%;
+  }
+  .leftNav {
+    display: none;
+  }
+  h2 {
+    margin-left: 40%;
+  }
+  .cities {
+    display: none;
+  }
+  .cities h3 {
+    margin-right: 7%;
+    float: left;
+  }
+  .bigSec {
+    width: 100%;
+  }
+  .choices {
+    margin-left: 36%;
+  }
+}

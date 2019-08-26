@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+.leftHeader {
+  width: 60%;
+  height: 100px;
+  float: left;
+}
+
+.leftHeader img {
+  float: left;
+}
+
+.leftHeader section > p {
+  font-size: 20px;
+}
+
+.leftHeader span {
+  color: green;
+}
+
+.leftHeaderNav li {
+  width: 15%;
+  font-size: 20px;
+  float: left;
+  list-style-type: none;
+}
+
+/* Right Icons */
+.rightIcons {
+  width: 40%;
+  height: 100px;
+  padding-left: 20%;
+  font-size: 20px;
+  float: left;
+}
+
+.rightIcons section span {
+  margin-right: 2%;
+  float: left;
+}
+
+.rightIcons ul li {
+  list-style-type: none;
+  margin-right: 2%;
+  float: left;
+}
+
+.rightIcons section form {
+  float: left;
+}
+
+/* Header 2 */
+.bottomHeader {
+  width: 100%;
+  height: 40px;
+  background-color: #0f4a00;
+  float: left;
+}
+
+.bottomHeader p {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Left Section */
+.leftSec {
+  width: 40%;
+  float: left;
+}
+.leftSec iframe{
+  width: 96%;
+  height: 301px;
+  margin-top: 25px;
+}
+
+.leftSec section span {
+  font-size: 25px;
+  margin-right: 5%;
+  float: left;
+}
+
+.leftSec section span + span {
+  color: green;
+  font-size: 25px;
+  float: left;
+}
+
+/* Mid Section */
+
+
+.midSec {
+  width: 30%;
+  height: 400px;
+  float: left;
+}
+
+.midSec h3, .midSec h4 {
+  padding-left: 28%;
+}
+
+.midSec img {
+  float: left;
+}
+
+.midSec h3 {
+  font-size: 13px;
+}
+
+.midSec h2 {
+  margin-top: 6px;
+}
+
+/* Last Sec */
+.lastSec {
+  height: 400px;
+  width: 30%;
+  float: left;
+}
+
+.lastSec section {
+  border-top: 30px solid grey;
+}
+
+.rightRadio p {
+  padding-left: 25px;
+  color: grey;
+}
